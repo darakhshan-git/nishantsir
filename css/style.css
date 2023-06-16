@@ -291,7 +291,6 @@ a.navbar-brand span {
     .header .menu>.menu-item>a {
         color: #000;
         padding: 12px 15px;
-        border-bottom: 1px solid #333333;
     }
 
     /* .header .menu>.menu-item:first-child>a {
@@ -374,6 +373,7 @@ section.sec3 .container {
 section.sec3 h4 {
     font-size: 18px;
     padding-bottom: 15px;
+    font-weight: 700 !important;
 }
 
 section.sec3 p {
