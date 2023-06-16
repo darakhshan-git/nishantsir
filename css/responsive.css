@@ -1,0 +1,48 @@
+/*********************************  Responsive Media ***************************************/
+@media screen and (min-width: 0px) and (max-width: 480px) {
+    img {
+        width: 100%;
+    }
+
+    .sce2 .homeCont h1 {
+        padding: 20px 0;
+    }
+    .text {
+        padding-left: 0;
+        padding-bottom: 40px;
+    }
+    section.sec5 {
+        padding: 50px 0;
+    }
+        
+    section.sec5 .row.row-reverse {
+        flex-direction: column-reverse;
+    }
+    section.expert{
+        padding: 50px 0 0;
+    }
+    section.sec6 .space {
+        padding: 0;
+    }
+    section.sec7 h2 {
+        padding-right: 0;
+    }
+    section.footer {
+        padding: 0px 0 50px;
+    }
+    section.footer p {
+        width: 100%;
+    }
+}
+
+
+
+/* media query tab screen*/
+@media screen and (min-width: 481px) and (max-width: 1050px) {
+    img.resp{
+        width: 100%;
+    }
+    .sce2 .item h3 {
+        font-size: 14px;
+    }
+}
