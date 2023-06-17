@@ -68,12 +68,13 @@ header.header {
 .navbar-brand {
     font-size: 25px;
     color: #000;
-    font-weight: 700;
+    font-weight: 900 !important;
     line-height: 17px;
 }
 
 a.navbar-brand span {
     font-size: 15px;
+    font-weight: 800 !important;
 }
 
 .header .nav-menu ul {
