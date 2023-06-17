@@ -7,9 +7,11 @@
     img {
         width: 100%;
     }
-    .header .menu>.menu-item.conatct{
+
+    .header .menu>.menu-item.conatct {
         margin-top: 10px;
     }
+
     .sce2 .item h3 {
         font-size: 15px;
     }
@@ -18,16 +20,34 @@
         padding: 20px 0;
         font-size: 25px;
     }
+
     .sce2 .homeCont p {
         font-size: 15px;
     }
+
+    .imgFlex {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    section.sce2 .imgFlex img {
+        width: 100px;
+    }
+
+    section.sce2 .imgFlex {
+        padding: 10px 10px 50px;
+    }
+
     .text {
         padding-left: 0;
         padding-bottom: 40px;
     }
+
     section.sec3 {
         padding: 0px 0 50px;
     }
+
     section.sec3 h4 {
         font-size: 18px;
         padding-bottom: 10px;
@@ -56,9 +76,11 @@
     section.sec7 h2 {
         padding-right: 0;
     }
+
     .queryForm {
         margin-left: 0px;
     }
+
     section.footer {
         padding: 0px 0 50px;
     }
@@ -78,5 +100,9 @@
 
     .sce2 .item h3 {
         font-size: 17px;
+    }
+
+    .imgFlex img {
+        width: 300px;
     }
 }
