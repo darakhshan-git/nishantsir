@@ -38,9 +38,6 @@ h2 {
     font-weight: 800 !important;
 }
 
-h3 {
-    font-weight: 800 !important;
-}
 
 h3 {
     font-weight: 700 !important;
@@ -105,9 +102,10 @@ a.navbar-brand span {
     font-size: 15px;
     color: #000;
     text-transform: capitalize;
+    font-weight: 600;
     transition: all 0.3s ease;
 }
-
+/* 
 .header .menu>.menu-item>a .plus {
     display: inline-block;
     height: 12px;
@@ -138,11 +136,11 @@ a.navbar-brand span {
 
 .header .menu>.menu-item>a .plus:after {
     transform: translate(-50%, -50%) rotate(-90deg);
-}
+} */
 
 .header .menu>.menu-item>.sub-menu>.menu-item>a:hover,
 .header .menu>.menu-item:hover>a {
-    color: #fff;
+    color: #4F4F4F;
 }
 
 .header .menu>.menu-item>.sub-menu {
@@ -348,13 +346,17 @@ a.navbar-brand span {
 }
 
 .sce2 .homeCont h1 {
-    padding: 20px 100px 10px;
+    padding: 20px 50px 10px;
+    font-size: 60px;
+    font-weight: 900;
 }
 .sce2 .homeCont p{
     margin: 0;
+    font-size: 20px;
 }
 .sce2 .item h3 {
     font-size: 20px;
+    font-weight: 800 !important;
 }
 
 
@@ -383,6 +385,8 @@ section.sec3 p {
 
 .text {
     padding-left: 100px;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .text h2 {
@@ -397,6 +401,9 @@ h6.quotes {
     font-size: 15px;
 }
 
+.vertical {
+    display: table;
+}
 section.sec5 {
     padding: 100px 0;
 }
@@ -511,6 +518,7 @@ section.sec8 {
 .queryForm {
     background: #FAF8F4;
     padding: 30px;
+    margin-left: 50px;
 }
 
 .queryForm .form-control {

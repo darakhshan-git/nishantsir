@@ -7,15 +7,20 @@
     img {
         width: 100%;
     }
-
+    .header .menu>.menu-item.conatct{
+        margin-top: 10px;
+    }
     .sce2 .item h3 {
-        font-size: 15px;
+        font-size: 17px;
     }
 
     .sce2 .homeCont h1 {
         padding: 20px 0;
+        font-size: 25px;
     }
-
+    .sce2 .homeCont p {
+        font-size: 15px;
+    }
     .text {
         padding-left: 0;
         padding-bottom: 40px;
@@ -51,7 +56,9 @@
     section.sec7 h2 {
         padding-right: 0;
     }
-
+    .queryForm {
+        margin-left: 0px;
+    }
     section.footer {
         padding: 0px 0 50px;
     }
@@ -70,6 +77,6 @@
     }
 
     .sce2 .item h3 {
-        font-size: 14px;
+        font-size: 17px;
     }
 }
