@@ -71,7 +71,9 @@ header.header {
     font-weight: 900 !important;
     line-height: 17px;
 }
-
+.navbar-brand:hover{
+    color: #4F4F4F;
+}
 a.navbar-brand span {
     font-size: 15px;
     font-weight: 800 !important;
